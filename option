@@ -1,0 +1,2 @@
+nohup java -jar -Dredis=51 -Dapp.id=device-virtual-tem -Denv=fat  -Dfat_meta=http://121.196.207.240:8084  virtual-command.jar --server.port=8693 &
+nohup java -jar -Dredis=50 -Dapp.id=device-virtual-tem -Denv=fat  -Dfat_meta=http://121.196.207.240:8084  virtual-command.jar --server.port=8694 &
